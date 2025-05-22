@@ -1,8 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
-const PORT = 3000;
 
-// Sample data
+// Use the port Render assigns or default to 3000 locally
+const PORT = process.env.PORT || 3000;
+
+app.use(cors());
+app.use(express.json());
+
+// Static sector data (no "All sectors")
 const sectors = [
   { date: "2021-06-22", name: "Materials", sector_id: "1" },
   { date: "2022-01-10", name: "Industrials", sector_id: "2" },
@@ -17,12 +23,12 @@ const sectors = [
   { date: "2024-08-14", name: "Consumer Discretionary", sector_id: "11" }
 ];
 
-// Endpoint to get all sectors
+// API route
 app.get('/api/sectors', (req, res) => {
   res.json(sectors);
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
