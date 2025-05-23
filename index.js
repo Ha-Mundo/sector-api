@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Static sector data (no "All sectors")
+// Static sector data 
 const sectors = [
   { date: "2021-06-22", name: "Materials", sector_id: "1" },
   { date: "2022-01-10", name: "Industrials", sector_id: "2" },
