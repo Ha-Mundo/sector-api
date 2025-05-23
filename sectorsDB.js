@@ -6,6 +6,7 @@ const sectorsDB = [
   { date: "2024-08-01", name: "Materials", sector_id: "1" },
   { date: "2024-08-07", name: "Materials", sector_id: "1" },
   { date: "2024-08-09", name: "Materials", sector_id: "1" },
+  { date: "2024-02-10", name: "Materials", sector_id: "1" },
 
   // Industrials (2)
   { date: "2022-01-10", name: "Industrials", sector_id: "2" },
@@ -13,6 +14,11 @@ const sectorsDB = [
   { date: "2025-05-01", name: "Industrials", sector_id: "2" },
   { date: "2023-02-13", name: "Industrials", sector_id: "2" },
   { date: "2023-05-15", name: "Industrials", sector_id: "2" },
+  { date: "2023-04-16", name: "Industrials", sector_id: "2" },
+  { date: "2023-06-18", name: "Industrials", sector_id: "2" },
+  { date: "2023-07-20", name: "Industrials", sector_id: "2" },
+  { date: "2023-07-22", name: "Industrials", sector_id: "2" },
+  { date: "2023-07-25", name: "Industrials", sector_id: "2" },
 
   // Real Estate (3)
   { date: "2023-04-18", name: "Real Estate", sector_id: "3" },
@@ -25,6 +31,8 @@ const sectorsDB = [
   { date: "2022-09-03", name: "Energy", sector_id: "4" },
   { date: "2023-12-01", name: "Energy", sector_id: "4" },
   { date: "2021-01-25", name: "Energy", sector_id: "4" },
+  { date: "2021-04-25", name: "Energy", sector_id: "4" },
+  { date: "2021-04-27", name: "Energy", sector_id: "4" },
 
   // Communication Services (5)
   { date: "2024-11-05", name: "Communication Services", sector_id: "5" },
