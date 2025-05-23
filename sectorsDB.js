@@ -5,12 +5,14 @@ const sectorsDB = [
   { date: "2023-03-05", name: "Materials", sector_id: "1" },
   { date: "2024-08-01", name: "Materials", sector_id: "1" },
   { date: "2024-08-07", name: "Materials", sector_id: "1" },
+  { date: "2024-08-09", name: "Materials", sector_id: "1" },
 
   // Industrials (2)
   { date: "2022-01-10", name: "Industrials", sector_id: "2" },
   { date: "2024-04-22", name: "Industrials", sector_id: "2" },
   { date: "2025-05-01", name: "Industrials", sector_id: "2" },
   { date: "2023-02-13", name: "Industrials", sector_id: "2" },
+  { date: "2023-05-15", name: "Industrials", sector_id: "2" },
 
   // Real Estate (3)
   { date: "2023-04-18", name: "Real Estate", sector_id: "3" },
@@ -29,6 +31,10 @@ const sectorsDB = [
   { date: "2023-12-25", name: "Communication Services", sector_id: "5" },
   { date: "2022-02-18", name: "Communication Services", sector_id: "5" },
   { date: "2022-03-18", name: "Communication Services", sector_id: "5" },
+  { date: "2022-01-18", name: "Communication Services", sector_id: "5" },
+  { date: "2022-02-16", name: "Communication Services", sector_id: "5" },
+  { date: "2022-02-20", name: "Communication Services", sector_id: "5" },
+  { date: "2022-03-22", name: "Communication Services", sector_id: "5" },
 
   // Healthcare (6)
   { date: "2021-09-28", name: "Healthcare", sector_id: "6" },
@@ -36,6 +42,12 @@ const sectorsDB = [
   { date: "2025-01-30", name: "Healthcare", sector_id: "6" },
   { date: "2023-06-21", name: "Healthcare", sector_id: "6" },
   { date: "2023-08-21", name: "Healthcare", sector_id: "6" },
+  { date: "2023-09-22", name: "Healthcare", sector_id: "6" },
+  { date: "2023-09-23", name: "Healthcare", sector_id: "6" },
+  { date: "2023-01-24", name: "Healthcare", sector_id: "6" },
+  { date: "2023-02-25", name: "Healthcare", sector_id: "6" },
+  { date: "2023-02-26", name: "Healthcare", sector_id: "6" },
+  { date: "2023-03-27", name: "Healthcare", sector_id: "6" },
 
   // Information Technology (7)
   { date: "2020-12-31", name: "Information Technology", sector_id: "7" },
