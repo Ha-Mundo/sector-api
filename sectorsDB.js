@@ -79,6 +79,9 @@ const sectorsDB = [
   { date: "2025-01-03", name: "Financials", sector_id: "9" },
   { date: "2024-02-28", name: "Financials", sector_id: "9" },
   { date: "2023-11-19", name: "Financials", sector_id: "9" },
+  { date: "2023-10-19", name: "Financials", sector_id: "9" },
+  { date: "2023-03-15", name: "Financials", sector_id: "9" },
+  { date: "2023-03-18", name: "Financials", sector_id: "9" },
 
   // Utilities (10)
   { date: "2022-05-27", name: "Utilities", sector_id: "10" },
